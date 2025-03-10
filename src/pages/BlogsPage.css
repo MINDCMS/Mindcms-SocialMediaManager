@@ -1,0 +1,265 @@
+/* General Page Styling */
+.blogs-page-container {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.blogs-header {
+  width: 100%;
+  background: #343a40;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #f8c000;
+}
+
+.website-name {
+  font-size: 20px;
+}
+
+.blogs-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f8c000;
+}
+
+/* Main Content */
+.blogs-main-content {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.form-container {
+  width: 100%;
+}
+
+.form-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 22px;
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+/* Button Styling */
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.generate-button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.generate-button:hover {
+  background: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Blog Content */
+.result-container {
+  margin-top: 20px;
+}
+
+.result-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #007bff;
+}
+
+.blog-box {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* SEO Insights Section */
+.seo-container {
+  background: #eef4ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seo-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.seo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.seo-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.seo-value {
+  color: #333;
+  font-weight: 500;
+}
+
+/* SEO Score Indicator */
+.seo-score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.seo-score-label {
+  margin-right: 10px;
+  color: #444;
+}
+
+.seo-score-value {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.seo-score-good {
+  background-color: #28a745;
+}
+
+.seo-score-average {
+  background-color: #ffc107;
+}
+
+.seo-score-bad {
+  background-color: #dc3545;
+}
+
+/* Download Button */
+.download-button {
+  display: block;
+  width: 100%;
+  background: #f8c000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.download-button:hover {
+  background: #d49e00;
+}
+
+/* Footer */
+.blogs-footer {
+  width: 100%;
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
