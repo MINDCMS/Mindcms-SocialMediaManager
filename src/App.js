@@ -47,7 +47,7 @@ function HomePage() {
         
         <div className="boxes-container">
           <HomePageLink to="/blogs" icon="📝" title="Blogs" description="Explore our collection of insightful articles" />
-          <HomePageLink to="/video-generating" icon="🎬" title="Video Generating" description="Create stunning videos with our tools" />
+          <HomePageLink to="/video-generating" icon="🎬" title="Image Generating" description="Create stunning videos with our tools" />
           <HomePageLink to="/captions" icon="💬" title="Caption or Posts for Ads" description="Generate engaging captions for your advertisements" />
         </div>
       </main>
