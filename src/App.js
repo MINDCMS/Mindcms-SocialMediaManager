@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import './App.css';
 import BlogsPage from './pages/BlogsPage';
-import VideoGeneratingPage from './pages/VideoGeneratingPage';
+import ImageGeneratingPage from './pages/ImageGeneratingPage';
 import CaptionsPage from './pages/CaptionsPage';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blogs" element={<BlogsPage />} />
-        <Route path="/video-generating" element={<VideoGeneratingPage />} />
+        <Route path="/video-generating" element={<ImageGeneratingPage />} />
         <Route path="/captions" element={<CaptionsPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
